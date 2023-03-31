@@ -1,0 +1,23 @@
+#perform_browser: chrome
+perform_environment: test1
+#perform_environment: test2
+
+browser:
+  bowser.webelement.timeout: 100
+  browser.headless: false
+  browser.attachscreenshot: false
+  perform_browser: chrome
+
+environments:
+  test1:
+    envName: test1
+    webUrl: https://www.onet.pl/
+    eTitle: Onet – Jesteś na bieżąco
+    login: userTest1
+    password: passwordTest1
+    active: true
+
+  test2:
+    envName: test2
+    webUrl: https://www.filmweb.pl/
+    eTitle: Filmweb - filmy takie jak Ty!
