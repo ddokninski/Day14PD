@@ -21,3 +21,4 @@ environments:
     envName: test2
     webUrl: https://www.filmweb.pl/
     eTitle: Filmweb - filmy takie jak Ty!
+    active: false

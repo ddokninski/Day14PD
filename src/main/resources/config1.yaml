@@ -1,0 +1,16 @@
+browser:
+  browser_name: chrome
+  headless: true
+  attach_screenshot: true
+  web_element_timeout: 60
+environment:
+  test_int:
+    env_name: test_init
+    app_url: https://www.selenium.dev
+    title: Selenium
+    active: true
+  test:
+    env_name: test
+    app_url: https://logback.qos.ch/
+    title: Logback Home
+    active: false
